@@ -1,4 +1,3 @@
-
 :root {
     --primary: #076873;
     --secondary: #F2AA80;
@@ -246,4 +245,13 @@ h3 {
         animation: none;
         transition: none;
     }
+}
+
+.canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
 }
